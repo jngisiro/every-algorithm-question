@@ -29,3 +29,5 @@ function reverse(str) {
 function reverse(str) {
   return str.split('').reduce((rev, char) => char + rev, '')
 }
+
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce
