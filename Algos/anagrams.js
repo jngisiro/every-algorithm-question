@@ -43,4 +43,4 @@ function buildCharMap(str) {
     charMap[char] = charMap[char] + 1 || 1;
   }
   return charMap;
-} */
+} */`
