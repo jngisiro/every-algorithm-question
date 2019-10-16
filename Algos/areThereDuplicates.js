@@ -35,3 +35,11 @@ function areThereDuplicates(...args) {
   }
   return false
 }
+
+// areThereDuplicates One-Line
+
+function areThereDuplicates() {
+  return new Set(arguments).size !== arguments.length;
+}
+
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set
